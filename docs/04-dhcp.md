@@ -87,7 +87,6 @@ Successful verification confirmed that:
 - Clients received the correct default gateway.
 - Each VLAN obtained addresses only from its own DHCP pool.
 - No address conflicts occurred.
-```
 
 ---
 
