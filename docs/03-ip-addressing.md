@@ -105,3 +105,10 @@ The following checks were performed successfully:
 A well-planned addressing scheme is one of the most important parts of network design.
 
 Choosing consistent gateway addresses, reserving infrastructure IPs, and separating departments into dedicated subnets significantly simplifies future administration and troubleshooting.
+
+---
+
+## References
+
+- Cisco Enterprise Campus Design Guide
+- RFC 1918 – Address Allocation for Private Internets
