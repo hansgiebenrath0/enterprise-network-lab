@@ -12,10 +12,12 @@
 
 ---
 
-## Version 1.1
+## Version 1.1 🚧
 
 - [ ] SSH Management
-- [ ] Secure remote administration
+- [ ] Secure Remote Administration
+- [ ] SSH Documentation
+- [ ] Verification
 
 ---
 
