@@ -108,6 +108,24 @@ tracert
 
 ---
 
+## Verification Evidence
+
+### ACL Hit Counters
+
+![ACL Verification](../screenshots/06-show-access-lists.png)
+
+Figure 5 — ACL hit counters confirming Guest traffic matches the deny rules.
+
+---
+
+### Guest Access Test
+
+![Guest ACL](../screenshots/08-guest-acl-block.png)
+
+Figure 6 — Ping from the Guest VLAN to the CEO VLAN is blocked as intended.
+
+---
+
 ## Troubleshooting
 
 During implementation, the following checks were performed:
