@@ -72,7 +72,3 @@
 - [ ] Monitoring
 - [ ] Grafana
 - [ ] Zabbix
-
----
-
-_Last updated after Release v1.0.0_
