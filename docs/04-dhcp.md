@@ -90,6 +90,16 @@ Successful verification confirmed that:
 
 ---
 
+## Verification Evidence
+
+### DHCP Bindings
+
+![DHCP Bindings](../screenshots/05-show-ip-dhcp-binding.png)
+
+Figure 7 — DHCP successfully assigned addresses to client devices.
+
+---
+
 ## Troubleshooting
 
 During implementation, the following checks were performed:
