@@ -1,129 +1,181 @@
 # Enterprise Network Lab
 
-> A hands-on Cisco enterprise networking project built with Packet Tracer.
+A Cisco Packet Tracer enterprise network project demonstrating VLAN segmentation, Router-on-a-Stick, DHCP, Inter-VLAN Routing, and Access Control Lists (ACLs).
+
+This project was created as part of my networking portfolio to demonstrate practical Cisco networking skills through implementation, verification, and documentation.
 
 ---
 
-## Overview
+## Project Overview
 
-This repository documents the design, implementation, testing, and troubleshooting of a small enterprise network using Cisco Packet Tracer.
+This lab simulates a small enterprise network with multiple departments connected through a Layer 2 switch and a Cisco router.
 
-The project is developed incrementally to simulate the deployment of a real business network while documenting every implementation step.
-
-Instead of focusing only on Cisco configuration commands, this repository also emphasizes network design, troubleshooting, documentation, and version control.
+Each department is isolated using VLANs while controlled communication is provided through Router-on-a-Stick routing. DHCP automatically assigns IP addresses, and an Extended ACL protects internal resources from the Guest network.
 
 ---
 
-## Project Goals
+## Features
 
-- Build a realistic enterprise network
-- Design a scalable network architecture
-- Separate departments using VLANs
-- Configure DHCP services
-- Implement Inter-VLAN Routing
-- Secure the network using ACLs
-- Document every implementation phase
-- Practice troubleshooting techniques
-- Build a professional networking portfolio
-
----
-
-## Project Status
-
-**Current Version**
-
-> **v1.0**
-
-**Status**
-
-🚧 Work in Progress
+- VLAN Segmentation
+- Router-on-a-Stick
+- Inter-VLAN Routing
+- DHCP Configuration
+- Extended ACL
+- Enterprise IP Addressing
+- Verification Documentation
+- Troubleshooting Guide
+- Cisco IOS Configuration Backups
 
 ---
 
-## Current Features
+## Technologies Used
 
-- ✅ Enterprise Network Topology
-- ✅ IPv4 Addressing Plan
-- ✅ DHCP Configuration
-- ✅ VLAN Segmentation
-- ✅ 802.1Q Trunk
-- ✅ Router-on-a-Stick
-- ✅ Extended ACL
+| Technology | Purpose |
+|------------|---------|
+| Cisco Packet Tracer | Network Simulation |
+| Cisco IOS | Router & Switch Configuration |
+| VLAN | Network Segmentation |
+| IEEE 802.1Q | VLAN Trunking |
+| DHCP | Automatic IP Assignment |
+| ACL | Traffic Filtering |
+| Git & GitHub | Version Control & Documentation |
+
+---
+
+## Network Topology
+
+![Network Topology](diagrams/topology.png)
+
+---
+
+## VLAN Structure
+
+| VLAN | Department | Network |
+|------|------------|----------------|
+| 10 | CEO | 192.168.10.0/24 |
+| 20 | Accounting | 192.168.20.0/24 |
+| 30 | Sales | 192.168.30.0/24 |
+| 40 | IT | 192.168.40.0/24 |
+| 50 | Guest | 192.168.50.0/24 |
 
 ---
 
 ## Repository Structure
 
 ```text
-enterprise-network-lab/
+Enterprise-Network-Lab/
 
-├── packet-tracer/
-├── configs/
-├── diagrams/
-├── docs/
-├── screenshots/
-├── README.md
-└── LICENSE
+configs/
+docs/
+diagrams/
+packet-tracer/
+screenshots/
+
+README.md
+CHANGELOG.md
+PROJECT-ROADMAP.md
+LICENSE
 ```
 
 ---
 
-## Technologies Used
+## Project Documentation
 
-- Cisco Packet Tracer
-- Cisco IOS
-- VLAN
-- DHCP
-- Router-on-a-Stick
-- Access Control Lists (ACL)
+| Document | Description |
+|----------|-------------|
+| Project Overview | Project goals and objectives |
+| Network Topology | Physical and logical topology |
+| IP Addressing | Addressing plan |
+| DHCP | DHCP configuration |
+| VLAN | VLAN implementation |
+| Router-on-a-Stick | Inter-VLAN routing |
+| ACL | Guest network isolation |
+| Troubleshooting | Issues encountered and solutions |
+
+Complete documentation is available in the **docs/** directory.
 
 ---
 
-## Roadmap
+## Verification
 
-### Version 1.0
+The project includes verification using Cisco IOS commands.
 
-- Enterprise Topology
+Examples include:
+
+- show vlan brief
+- show interfaces trunk
+- show ip interface brief
+- show ip route
+- show ip dhcp binding
+- show access-lists
+- ping
+- tracert
+
+Verification screenshots are available in the **screenshots/** directory.
+
+---
+
+## Current Version
+
+**v1.0.0**
+
+Implemented:
+
+- VLANs
 - DHCP
-- VLAN
-- Trunk
 - Router-on-a-Stick
+- Inter-VLAN Routing
 - ACL
-
-### Version 2.0
-
-- SSH
-- Port Security
-- Management VLAN
-
-### Version 3.0
-
-- STP
-- EtherChannel
-- NAT
-
-### Version 4.0
-
-- Ubuntu Server
-- Docker
-- DNS
-- Web Server
-
-### Version 5.0
-
-- Windows Server
-- Active Directory
-- Group Policy
-- File Server
+- Documentation
+- Troubleshooting
+- Configuration Backups
 
 ---
 
-## Lessons Learned
+## Future Improvements
 
-This project focuses not only on implementing Cisco configurations but also on understanding **why** each technology is used, how to troubleshoot networking problems, and how to document a technical project professionally.
+Planned features include:
+
+- SSH Management
+- Management VLAN
+- Port Security
+- Syslog
+- NTP
+- Active Directory
+- Windows Server
+- VPN
+- Docker Services
+- Monitoring (Grafana & Zabbix)
+
+See **PROJECT-ROADMAP.md** for details.
+
+---
+
+## Learning Objectives
+
+This project demonstrates practical experience with:
+
+- Enterprise network design
+- Cisco IOS configuration
+- Layer 2 switching
+- Layer 3 routing
+- Network segmentation
+- DHCP deployment
+- Access Control Lists
+- Network troubleshooting
+- Technical documentation
+- GitHub project organization
 
 ---
 
 ## Author
 
-Created and maintained by **Hans**
+GitHub: **YourGitHubUsername**
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
