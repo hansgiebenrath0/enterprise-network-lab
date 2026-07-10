@@ -134,6 +134,24 @@ Successful verification confirmed:
 
 ---
 
+## Verification Evidence
+
+### VLAN Table
+
+![VLAN Table](../screenshots/show-vlan-brief.png)
+
+Figure 1 — Output of the `show vlan brief` command confirming that all VLANs were created successfully and assigned to the correct access ports.
+
+---
+
+### Trunk Status
+
+![Trunk Status](../screenshots/show-interfaces-trunk.png)
+
+Figure 2 — Output of the `show interfaces trunk` command verifying that the IEEE 802.1Q trunk is operational.
+
+---
+
 ## Troubleshooting
 
 During implementation, the following checks were performed:
