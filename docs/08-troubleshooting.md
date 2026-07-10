@@ -213,6 +213,24 @@ All clients received valid IP addresses.
 
 ---
 
+## Verification Evidence
+
+### Traceroute
+
+![Traceroute](../screenshots/09-tracert-inter-vlan.png)
+
+Figure 8 — Traceroute confirming the packet path through the router.
+
+---
+
+### Successful Inter-VLAN Ping
+
+![Ping](../screenshots/07-ping-inter-vlan.png)
+
+Figure 9 — Successful communication between different VLANs.
+
+---
+
 # Verification Commands Summary
 
 | Command | Purpose |
