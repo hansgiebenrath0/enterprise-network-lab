@@ -12,25 +12,25 @@
 
 ---
 
-## Version 1.1 🚧
+## Version 1.1 ✅
 
-- [ ] SSH Management
-- [ ] Secure Remote Administration
-- [ ] SSH Documentation
-- [ ] Verification
-
----
-
-## Version 1.2
-
-- [ ] Management VLAN
-- [ ] Switch hardening
+- [x] SSH Management
+- [x] Secure Remote Administration
+- [x] SSH Documentation
+- [x] Verification
 
 ---
 
-## Version 1.3
+## Version 1.2 ✅
 
-- [ ] Port Security
+- [x] Management VLAN
+- [x] Switch hardening
+
+---
+
+## Version 1.3 ✅
+
+- [x] Port Security
 
 ---
 
