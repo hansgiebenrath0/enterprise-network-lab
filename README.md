@@ -25,6 +25,9 @@ Each department is isolated using VLANs while controlled communication is provid
 - Verification Documentation
 - Troubleshooting Guide
 - Cisco IOS Configuration Backups
+- Spanning Tree Protocol (PVST)
+- PortFast
+- BPDU Guard
 
 ---
 

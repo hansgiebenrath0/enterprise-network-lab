@@ -37,13 +37,12 @@
 
 ---
 
-# Version 1.4
+# Version 1.4 ✅
 ## Layer 2 Protection
 
-- [ ] STP
-- [ ] PortFast
-- [ ] BPDU Guard
-- [ ] Documentation
+- [x] Spanning Tree (PVST)
+- [x] PortFast
+- [x] BPDU Guard
 
 ---
 
