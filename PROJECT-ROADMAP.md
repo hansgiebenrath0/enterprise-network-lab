@@ -15,29 +15,25 @@
 
 ---
 
-# Version 1.1 ✅
-## Secure Management
+## Version 1.1 ✅
 
 - [x] SSH Management
 - [x] Secure Remote Administration
-- [x] SSH Verification
+- [x] SSH Documentation
+- [x] Verification
 
 ---
 
-# Version 1.2 ✅
-## Management Network
+## Version 1.2 ✅
 
-- [x] Dedicated Management VLAN
-- [x] Switch Hardening
+- [x] Management VLAN
+- [x] Switch hardening
 
 ---
 
-# Version 1.3 ✅
-## Access Layer Security
+## Version 1.3 ✅
 
 - [x] Port Security
-- [x] Sticky MAC Learning
-- [x] Port Recovery Procedure
 
 ---
 
