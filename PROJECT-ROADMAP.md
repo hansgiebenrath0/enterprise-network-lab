@@ -74,8 +74,8 @@
 
 ---
 
-# Version 2.5
-## Remote Access
+## Version 2.5
+### Remote Access
 
 - [ ] Site-to-Site VPN
 - [ ] Remote Access VPN
