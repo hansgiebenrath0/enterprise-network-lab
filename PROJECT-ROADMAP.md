@@ -37,8 +37,8 @@
 
 ---
 
-# Version 1.4 ✅
-## Layer 2 Protection
+## Version 1.4 ✅
+### Layer 2 Protection
 
 - [x] Spanning Tree (PVST)
 - [x] PortFast
@@ -46,8 +46,8 @@
 
 ---
 
-# Version 1.5
-## Infrastructure Services
+## Version 1.5
+### Infrastructure Services
 
 - [ ] Syslog
 - [ ] NTP
@@ -55,8 +55,8 @@
 
 ---
 
-# Version 1.6
-## Layer 2 Advanced Features
+## Version 1.6
+### Layer 2 Advanced Features
 
 - [ ] EtherChannel
 - [ ] Trunk Hardening
