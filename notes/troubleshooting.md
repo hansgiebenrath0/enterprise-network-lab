@@ -95,3 +95,74 @@ show port-security interface
 ```
 
 before assuming the configuration is incorrect.
+
+---
+
+# BPDU Guard Disabled an Access Port
+
+## Problem
+
+After connecting another switch to an access port, network connectivity was immediately lost.
+
+The interface entered the **err-disabled** state.
+
+Verification command:
+
+```text
+show interface fa0/2
+```
+
+Example output:
+
+```text
+FastEthernet0/2 is down, line protocol is down (err-disabled)
+```
+
+---
+
+## Cause
+
+The access port was configured with:
+
+- PortFast
+- BPDU Guard
+
+When a second switch was connected, it transmitted Bridge Protocol Data Units (BPDUs).
+
+BPDU Guard detected the BPDU and immediately disabled the interface to prevent a potential Layer 2 loop.
+
+This is the expected behavior on Cisco switches.
+
+---
+
+## Solution
+
+Disconnect the unauthorized switch.
+
+Recover the interface by resetting it.
+
+```cisco
+conf t
+interface fa0/2
+shutdown
+no shutdown
+end
+```
+
+Verify the interface status:
+
+```text
+show interface fa0/2
+```
+
+The interface should return to the **up/up** state.
+
+---
+
+## Lessons Learned
+
+BPDU Guard should be enabled on all PortFast access ports.
+
+If an unauthorized switch is connected, the affected interface is automatically disabled, protecting the network from switching loops.
+
+Always verify that only end devices are connected to PortFast-enabled interfaces.
