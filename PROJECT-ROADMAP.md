@@ -46,12 +46,10 @@
 
 ---
 
-## Version 1.5
-### Infrastructure Services
+## Version 1.5 ✅
 
-- [ ] Syslog
-- [ ] NTP
-- [ ] Configuration Backup
+- [x] Network Time Protocol (NTP)
+- [x] Time Synchronization
 
 ---
 

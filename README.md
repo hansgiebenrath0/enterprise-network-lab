@@ -28,6 +28,7 @@ Each department is isolated using VLANs while controlled communication is provid
 - Spanning Tree Protocol (PVST)
 - PortFast
 - BPDU Guard
+- Network Time Protocol (NTP)
 
 ---
 
