@@ -166,3 +166,85 @@ BPDU Guard should be enabled on all PortFast access ports.
 If an unauthorized switch is connected, the affected interface is automatically disabled, protecting the network from switching loops.
 
 Always verify that only end devices are connected to PortFast-enabled interfaces.
+
+---
+
+# NTP Synchronization
+
+## Problem
+
+After configuring NTP, the switch did not immediately synchronize its clock with the router.
+
+Verification command:
+
+```text
+show ntp status
+```
+
+Possible output:
+
+```text
+%NTP is not enabled.
+```
+
+or
+
+```text
+Clock is unsynchronized
+```
+
+---
+
+## Cause
+
+Several factors can prevent NTP synchronization:
+
+- NTP server not configured
+- Incorrect server IP address
+- Network connectivity issues
+- Router not configured as an NTP Master
+- Insufficient time for synchronization
+
+---
+
+## Solution
+
+Verify that the router is operating as the NTP Master:
+
+```text
+show ntp status
+```
+
+Expected result:
+
+```text
+Clock is synchronized
+Stratum 1
+```
+
+Verify the switch configuration:
+
+```text
+show running-config | include ntp
+```
+
+Expected configuration:
+
+```cisco
+ntp server 192.168.99.1
+```
+
+Allow the devices approximately one minute to synchronize, then verify again:
+
+```text
+show ntp status
+show clock
+```
+
+---
+
+## Lessons Learned
+
+Time synchronization is a critical infrastructure service.
+
+Accurate timestamps improve troubleshooting, logging, monitoring, and event correlation across enterprise networks.
