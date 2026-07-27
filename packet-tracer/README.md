@@ -8,7 +8,7 @@ Each release represents the network at a specific development milestone.
 
 ## Current Version
 
-**enterprise-network-lab-v1.5.pkt**
+**enterprise-network-lab-v1.6.pkt**
 
 ---
 
@@ -34,6 +34,7 @@ Each release represents the network at a specific development milestone.
 - SSH Remote Management
 - Dedicated Management VLAN
 - Network Time Protocol (NTP)
+- Centralized Syslog
 
 ### Network Security
 
@@ -71,6 +72,7 @@ Each implemented feature includes:
 | v1.3 | Port Security |
 | v1.4 | Spanning Tree Protocol (PVST) |
 | v1.5 | Network Time Protocol (NTP) |
+| v1.6 | Centralized Syslog |
 
 ---
 

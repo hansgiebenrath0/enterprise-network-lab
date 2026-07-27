@@ -53,11 +53,12 @@
 
 ---
 
-## Version 1.6
-### Layer 2 Advanced Features
+## Version 1.6 ✅
 
-- [ ] EtherChannel
-- [ ] Trunk Hardening
+- [x] Centralized Syslog
+- [x] Syslog Server
+- [x] Remote Log Collection
+- [x] Event Verification
 
 ---
 
@@ -93,10 +94,10 @@
 # Version 4.0
 ## Monitoring
 
-- [ ] Syslog Integration
 - [ ] SNMP
-- [ ] Grafana
 - [ ] Zabbix
+- [ ] Grafana
+- [ ] Log Monitoring
 
 ---
 
