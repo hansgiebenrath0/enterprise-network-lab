@@ -22,13 +22,17 @@ Each department is isolated using VLANs while controlled communication is provid
 - DHCP Configuration
 - Extended ACL
 - Enterprise IP Addressing
-- Verification Documentation
-- Troubleshooting Guide
-- Cisco IOS Configuration Backups
+- SSH Management
+- Dedicated Management VLAN
+- Port Security
 - Spanning Tree Protocol (PVST)
 - PortFast
 - BPDU Guard
 - Network Time Protocol (NTP)
+- Centralized Syslog
+- Verification Documentation
+- Troubleshooting Guide
+- Cisco IOS Configuration Backups
 
 ---
 
@@ -87,16 +91,22 @@ LICENSE
 
 | Document | Description |
 |----------|-------------|
-| Project Overview | Project goals and objectives |
-| Network Topology | Physical and logical topology |
-| IP Addressing | Addressing plan |
-| DHCP | DHCP configuration |
-| VLAN | VLAN implementation |
-| Router-on-a-Stick | Inter-VLAN routing |
-| ACL | Guest network isolation |
-| Troubleshooting | Issues encountered and solutions |
+| 01-project-overview.md | Project goals and architecture |
+| 02-network-topology.md | Physical and logical network topology |
+| 03-ip-addressing.md | Enterprise IP addressing plan |
+| 04-vlan-configuration.md | VLAN implementation |
+| 05-dhcp-configuration.md | DHCP configuration |
+| 06-router-on-a-stick.md | Inter-VLAN routing |
+| 07-access-control-lists.md | Extended ACL implementation |
+| 08-verification-and-testing.md | Network verification and testing |
+| 09-ssh-management.md | Secure SSH remote management |
+| 10-management-vlan.md | Dedicated management VLAN |
+| 11-port-security.md | Layer 2 port security |
+| 12-spanning-tree.md | PVST, PortFast and BPDU Guard |
+| 13-network-time-protocol.md | Network time synchronization (NTP) |
+| 14-syslog.md | Centralized Syslog logging |
 
-Complete documentation is available in the **docs/** directory.
+Complete technical documentation is available in the **docs/** directory.
 
 ---
 
@@ -121,18 +131,24 @@ Verification screenshots are available in the **screenshots/** directory.
 
 ## Current Version
 
-**v1.0.0**
+**v1.6.0**
 
 Implemented:
 
-- VLANs
-- DHCP
+- VLAN Segmentation
 - Router-on-a-Stick
-- Inter-VLAN Routing
+- DHCP
 - ACL
+- SSH Management
+- Management VLAN
+- Port Security
+- Spanning Tree (PVST)
+- PortFast
+- BPDU Guard
+- NTP
+- Centralized Syslog
 - Documentation
 - Troubleshooting
-- Configuration Backups
 
 ---
 
@@ -140,16 +156,18 @@ Implemented:
 
 Planned features include:
 
-- SSH Management
-- Management VLAN
-- Port Security
-- Syslog
-- NTP
-- Active Directory
 - Windows Server
+- Active Directory
+- DNS
+- DHCP Migration
 - VPN
-- Docker Services
-- Monitoring (Grafana & Zabbix)
+- Docker
+- Reverse Proxy
+- Monitoring
+- Grafana
+- Zabbix
+- SNMP
+- OSPF
 
 See **PROJECT-ROADMAP.md** for details.
 
