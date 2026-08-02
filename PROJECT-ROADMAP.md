@@ -62,14 +62,17 @@
 
 ---
 
-# Version 2.0
-## Windows Infrastructure
+# Version 2.0 ✅
+## Active Directory Foundation
 
-- [ ] Windows Server
-- [ ] Active Directory
-- [ ] DNS
-- [ ] DHCP Migration
-- [ ] Group Policy
+- [x] Windows Server 2022
+- [x] Active Directory Domain Services
+- [x] DNS Server
+- [x] Domain Controller
+- [x] Forest Creation
+- [x] FSMO Verification
+- [x] Domain Health Verification
+- [x] Documentation
 
 ---
 

@@ -1,8 +1,8 @@
 # Enterprise Network Lab
 
-A Cisco Packet Tracer enterprise network project demonstrating VLAN segmentation, Router-on-a-Stick, DHCP, Inter-VLAN Routing, and Access Control Lists (ACLs).
+A Cisco Packet Tracer and Microsoft Windows Server enterprise lab demonstrating enterprise networking, Active Directory Domain Services (AD DS), DNS, DHCP, VLAN segmentation, Router-on-a-Stick, Access Control Lists (ACLs), centralized logging, and enterprise network management.
 
-This project was created as part of my networking portfolio to demonstrate practical Cisco networking skills through implementation, verification, and documentation.
+This project combines Cisco networking technologies with Microsoft enterprise infrastructure to simulate a real-world hybrid enterprise environment.
 
 ---
 
@@ -16,20 +16,33 @@ Each department is isolated using VLANs while controlled communication is provid
 
 ## Features
 
+### Cisco Networking
+
 - VLAN Segmentation
 - Router-on-a-Stick
 - Inter-VLAN Routing
-- DHCP Configuration
+- DHCP
 - Extended ACL
-- Enterprise IP Addressing
 - SSH Management
-- Dedicated Management VLAN
+- Management VLAN
 - Port Security
-- Spanning Tree Protocol (PVST)
+- Spanning Tree (PVST)
 - PortFast
 - BPDU Guard
-- Network Time Protocol (NTP)
+- NTP
 - Centralized Syslog
+
+### Microsoft Infrastructure
+
+- Windows Server 2022
+- Active Directory Domain Services
+- Domain Controller
+- DNS Server
+- Enterprise Authentication
+
+### Project
+
+- Enterprise IP Addressing
 - Verification Documentation
 - Troubleshooting Guide
 - Cisco IOS Configuration Backups
@@ -42,11 +55,14 @@ Each department is isolated using VLANs while controlled communication is provid
 |------------|---------|
 | Cisco Packet Tracer | Network Simulation |
 | Cisco IOS | Router & Switch Configuration |
+| Windows Server 2022 | Enterprise Infrastructure |
+| Active Directory | Identity Management |
+| DNS | Name Resolution |
 | VLAN | Network Segmentation |
 | IEEE 802.1Q | VLAN Trunking |
 | DHCP | Automatic IP Assignment |
 | ACL | Traffic Filtering |
-| Git & GitHub | Version Control & Documentation |
+| Git & GitHub | Version Control |
 
 ---
 
@@ -131,24 +147,37 @@ Verification screenshots are available in the **screenshots/** directory.
 
 ## Current Version
 
-**v1.6.0**
+## Current Version
+
+**v2.0.0**
 
 Implemented:
 
-- VLAN Segmentation
-- Router-on-a-Stick
+### Cisco
+
+- VLANs
 - DHCP
+- Router-on-a-Stick
 - ACL
-- SSH Management
+- SSH
 - Management VLAN
 - Port Security
-- Spanning Tree (PVST)
-- PortFast
-- BPDU Guard
+- STP
 - NTP
-- Centralized Syslog
-- Documentation
+- Syslog
+
+### Microsoft
+
+- Windows Server 2022
+- Active Directory
+- DNS
+- Domain Controller
+
+### Documentation
+
+- Verification
 - Troubleshooting
+- Configuration Backups
 
 ---
 
@@ -156,18 +185,17 @@ Implemented:
 
 Planned features include:
 
-- Windows Server
-- Active Directory
-- DNS
-- DHCP Migration
+- Active Directory Administration
+- Windows Client Domain Join
+- Group Policy
+- Windows DHCP
+- File Services
 - VPN
 - Docker
 - Reverse Proxy
 - Monitoring
 - Grafana
 - Zabbix
-- SNMP
-- OSPF
 
 See **PROJECT-ROADMAP.md** for details.
 

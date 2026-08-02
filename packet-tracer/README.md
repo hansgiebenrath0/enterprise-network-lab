@@ -8,7 +8,7 @@ Each release represents the network at a specific development milestone.
 
 ## Current Version
 
-**enterprise-network-lab-v1.6.pkt**
+**enterprise-network-lab-v2.0.pkt**
 
 ---
 
@@ -46,6 +46,13 @@ Each release represents the network at a specific development milestone.
 
 - Spanning Tree Protocol (PVST)
 
+### Microsoft Infrastructure
+
+- Windows Server 2022
+- Active Directory Domain Services
+- DNS Server
+- Domain Controller
+
 ---
 
 ## Documentation
@@ -73,6 +80,7 @@ Each implemented feature includes:
 | v1.4 | Spanning Tree Protocol (PVST) |
 | v1.5 | Network Time Protocol (NTP) |
 | v1.6 | Centralized Syslog |
+| v2.0 | Windows Server 2022, Active Directory, DNS, Domain Controller |
 
 ---
 
