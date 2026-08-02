@@ -133,49 +133,49 @@ Although these limitations exist, centralized Syslog forwarding operates correct
 
 ### Server IP Configuration
 
-![Server IP](../screenshots/29-server-ip-configuration.png)
+![Server IP](../screenshots/v1.6/01-server-ip-configuration.png)
 
 ---
 
 ### Syslog Service
 
-![Syslog Service](../screenshots/30-server-syslog-service.png)
+![Syslog Service](../screenshots/v1.6/02-server-syslog-service.png)
 
 ---
 
 ### Syslog Server Topology
 
-![Topology](../screenshots/31-syslog-server-topology.png)
+![Topology](../screenshots/v1.6/03-syslog-server-topology.png)
 
 ---
 
 ### Router Logging Configuration
 
-![Router Logging](../screenshots/32-router-logging-config.png)
+![Router Logging](../screenshots/v1.6/04-router-logging-config.png)
 
 ---
 
 ### Switch Logging Configuration
 
-![Switch Logging](../screenshots/33-switch-logging-config.png)
+![Switch Logging](../screenshots/v1.6/05-switch-logging-config.png)
 
 ---
 
 ### Router Verification
 
-![Router Show Logging](../screenshots/34-router-show-logging.png)
+![Router Show Logging](../screenshots/v1.6/06-router-show-logging.png)
 
 ---
 
 ### Switch Verification
 
-![Switch Show Logging](../screenshots/35-switch-show-logging.png)
+![Switch Show Logging](../screenshots/v1.6/07-switch-show-logging.png)
 
 ---
 
 ### Centralized Syslog Events
 
-![Syslog Events](../screenshots/36-syslog-events.png)
+![Syslog Events](../screenshots/v1.6/08-syslog-events.png)
 
 ---
 

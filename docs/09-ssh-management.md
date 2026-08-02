@@ -110,9 +110,9 @@ show ip interface brief
 
 ## Screenshots
 
-![Router SSH](../screenshots/10-ssh-router-success.png)
+![Router SSH](../screenshots/v1.2/01-ssh-router-success.png)
 
-![Switch SSH](../screenshots/11-ssh-switch-success.png)
+![Switch SSH](../screenshots/v1.2/02-ssh-switch-success.png)
 
 ---
 

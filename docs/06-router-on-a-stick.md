@@ -145,7 +145,7 @@ Verification confirmed that:
 
 ### Router Interfaces
 
-![Router Interfaces](../screenshots/03-show-ip-interface-brief.png)
+![Router Interfaces](../screenshots/v1.0/03-show-ip-interface-brief.png)
 
 Figure 3 — Verification that all router subinterfaces are operational.
 
@@ -153,7 +153,7 @@ Figure 3 — Verification that all router subinterfaces are operational.
 
 ### Routing Table
 
-![Routing Table](../screenshots/04-show-ip-route.png)
+![Routing Table](../screenshots/v1.0/04-show-ip-route.png)
 
 Figure 4 — Routing table showing directly connected VLAN networks.
 

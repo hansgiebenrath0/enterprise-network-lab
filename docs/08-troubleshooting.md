@@ -217,7 +217,7 @@ All clients received valid IP addresses.
 
 ### Traceroute
 
-![Traceroute](../screenshots/09-tracert-inter-vlan.png)
+![Traceroute](../screenshots/v1.0/09-tracert-inter-vlan.png)
 
 Figure 8 — Traceroute confirming the packet path through the router.
 
@@ -225,7 +225,7 @@ Figure 8 — Traceroute confirming the packet path through the router.
 
 ### Successful Inter-VLAN Ping
 
-![Ping](../screenshots/07-ping-inter-vlan.png)
+![Ping](../screenshots/v1.0/07-ping-inter-vlan.png)
 
 Figure 9 — Successful communication between different VLANs.
 

@@ -146,31 +146,31 @@ Key takeaways:
 
 ### Port Security Enabled
 
-![Port Security Enabled](../screenshots/12-port-security-enabled.png)
+![Port Security Enabled](../screenshots/v1.3/01-port-security-enabled.png)
 
 ---
 
 ### Sticky MAC Learned
 
-![Sticky MAC Learned](../screenshots/13-sticky-mac-learned.png)
+![Sticky MAC Learned](../screenshots/v1.3/02-sticky-mac-learned.png)
 
 ---
 
 ### Security Violation
 
-![Security Violation](../screenshots/14-security-violation.png)
+![Security Violation](../screenshots/v1.3/03-security-violation.png)
 
 ---
 
 ### Interface in Err-Disabled State
 
-![Err Disabled](../screenshots/15-err-disabled-port.png)
+![Err Disabled](../screenshots/v1.3/04-err-disabled-port.png)
 
 ---
 
 ### Port Recovery
 
-![Port Recovery](../screenshots/16-port-recovered.png)
+![Port Recovery](../screenshots/v1.3/05-port-recovered.png)
 
 ---
 

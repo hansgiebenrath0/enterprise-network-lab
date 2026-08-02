@@ -170,31 +170,31 @@ Implementing NTP provides several operational advantages:
 
 ### Router NTP Master
 
-![Router NTP Master](../screenshots/24-router-ntp-master.png)
+![Router NTP Master](../screenshots/v1.5/02-router-ntp-master.png)
 
 ---
 
 ### Router NTP Configuration
 
-![Router NTP Configuration](../screenshots/25-router-ntp-config.png)
+![Router NTP Configuration](../screenshots/v1.5/03-router-ntp-config.png)
 
 ---
 
 ### Switch NTP Configuration
 
-![Switch NTP Configuration](../screenshots/26-switch-ntp-config.png)
+![Switch NTP Configuration](../screenshots/v1.5/04-switch-ntp-config.png)
 
 ---
 
 ### Switch Synchronization Status
 
-![Switch NTP Status](../screenshots/27-switch-ntp-status.png)
+![Switch NTP Status](../screenshots/v1.5/05-switch-ntp-status.png)
 
 ---
 
 ### Synchronized Clock
 
-![Synchronized Clock](../screenshots/28-synchronized-clock.png)
+![Synchronized Clock](../screenshots/v1.5/06-synchronized-clock.png)
 
 ---
 

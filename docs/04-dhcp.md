@@ -94,7 +94,7 @@ Successful verification confirmed that:
 
 ### DHCP Bindings
 
-![DHCP Bindings](../screenshots/05-show-ip-dhcp-binding.png)
+![DHCP Bindings](../screenshots/v1.0/05-show-ip-dhcp-binding.png)
 
 Figure 7 — DHCP successfully assigned addresses to client devices.
 

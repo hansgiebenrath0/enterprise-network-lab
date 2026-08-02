@@ -117,7 +117,7 @@ interface fa0/2
 
 The following output confirms that SW1 is the Root Bridge for VLAN 10.
 
-![STP Root Bridge](../screenshots/17-stp-root-bridge.png)
+![STP Root Bridge](../screenshots/v1.4/01-stp-root-bridge.png)
 
 ---
 
@@ -125,7 +125,7 @@ The following output confirms that SW1 is the Root Bridge for VLAN 10.
 
 PortFast was enabled on all access ports connected to end devices.
 
-![PortFast Enabled](../screenshots/18-portfast-enabled.png)
+![PortFast Enabled](../screenshots/v1.4/02-portfast-enabled.png)
 
 ---
 
@@ -133,7 +133,7 @@ PortFast was enabled on all access ports connected to end devices.
 
 BPDU Guard was enabled on all PortFast interfaces to protect the network against unauthorized switches.
 
-![BPDU Guard Enabled](../screenshots/19-bpdu-guard-enabled.png)
+![BPDU Guard Enabled](../screenshots/v1.4/03-bpdu-guard-enabled.png)
 
 ---
 
@@ -141,7 +141,7 @@ BPDU Guard was enabled on all PortFast interfaces to protect the network against
 
 Connecting another switch to an access port caused the interface to enter the **err-disabled** state.
 
-![BPDU Guard Violation](../screenshots/20-bpdu-guard-violation.png)
+![BPDU Guard Violation](../screenshots/v1.4/04-bpdu-guard-violation.png)
 
 ---
 
@@ -149,7 +149,7 @@ Connecting another switch to an access port caused the interface to enter the **
 
 The interface status confirms that BPDU Guard successfully disabled the port after receiving a BPDU.
 
-![Err-disabled Interface](../screenshots/21-err-disabled-bpdu.png)
+![Err-disabled Interface](../screenshots/v1.4/05-err-disabled-bpdu.png)
 
 ---
 
@@ -157,7 +157,7 @@ The interface status confirms that BPDU Guard successfully disabled the port aft
 
 After removing the unauthorized switch, the interface was restored using the shutdown/no shutdown procedure.
 
-![Recovered Interface](../screenshots/22-recovered-port.png)
+![Recovered Interface](../screenshots/v1.4/06-recovered-port.png)
 
 ---
 
