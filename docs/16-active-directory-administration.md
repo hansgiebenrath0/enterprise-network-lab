@@ -34,7 +34,7 @@ The following Organizational Units were created:
 
 ### Screenshot
 
-![Organizational Unit Structure](../screenshots/v2.1/01-organizational-unit-structure.png)
+- [Organizational Unit Structure](../screenshots/v2.1/01-organizational-unit-structure.png)
 
 ---
 
@@ -51,7 +51,7 @@ Each group is used to simplify permission management and follows Microsoft's AGD
 
 ### Screenshot
 
-![Security Groups](../screenshots/v2.1/02-security-groups.png)
+- [Security Groups](../screenshots/v2.1/02-security-groups.png)
 
 ---
 
@@ -71,7 +71,7 @@ Users were placed inside their corresponding Organizational Units.
 
 ### Screenshot
 
-![Domain Users](../screenshots/v2.1/03-domain-users.png)
+- [Domain Users](../screenshots/v2.1/03-domain-users.png)
 
 ---
 
@@ -89,7 +89,7 @@ Users were added to their corresponding Security Groups.
 
 ### Screenshot
 
-![Security Group Membership](../screenshots/v2.1/04-security-group-membership.png)
+- [Security Group Membership](../screenshots/v2.1/04-security-group-membership.png)
 
 ---
 
@@ -101,7 +101,7 @@ The account was added to the Domain Admins group to follow security best practic
 
 ### Screenshot
 
-![Domain Admin Membership](../screenshots/v2.1/05-domain-admin-membership.png)
+- [Domain Admin Membership](../screenshots/v2.1/05-domain-admin-membership.png)
 
 ---
 
@@ -119,13 +119,13 @@ Get-ADGroupMember "Domain Admins"
 
 ### Screenshots
 
-![Powershell Users](../screenshots/v2.1/06-powershell-users.png)
+- [Powershell Users](../screenshots/v2.1/06-powershell-users.png)
 
-![Powershell Groups](../screenshots/v2.1/07-powershell-groups.png)
+- [Powershell Groups](../screenshots/v2.1/07-powershell-groups.png)
 
-![IT Admins Members](../screenshots/v2.1/08-it-admins-members.png)
+- [IT Admins Members](../screenshots/v2.1/08-it-admins-members.png)
 
-![Domain Admins Members](../screenshots/v2.1/09-domain-admins-members.png)
+- [Domain Admins Members](../screenshots/v2.1/09-domain-admins-members.png)
 
 ---
 
