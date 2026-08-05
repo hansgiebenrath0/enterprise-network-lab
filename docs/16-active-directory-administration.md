@@ -32,7 +32,7 @@ The following Organizational Units were created:
   - Security
 - Service Accounts
 
-Screenshot:
+### Screenshot
 
 ![Organizational Unit Structure](../screenshots/v2.1/01-organizational-unit-structure.png)
 
@@ -49,7 +49,7 @@ The following Global Security Groups were created:
 
 Each group is used to simplify permission management and follows Microsoft's AGDLP model.
 
-Screenshot:
+### Screenshot
 
 ![Security Groups](../screenshots/v2.1/02-security-groups.png)
 
@@ -69,7 +69,7 @@ The following users were created:
 
 Users were placed inside their corresponding Organizational Units.
 
-Screenshot:
+### Screenshot
 
 ![Domain Users](../screenshots/v2.1/03-domain-users.png)
 
@@ -87,7 +87,7 @@ Users were added to their corresponding Security Groups.
 | it.user | IT_Admins |
 | it.admin | IT_Admins |
 
-Screenshot:
+### Screenshot
 
 ![Security Group Membership](../screenshots/v2.1/04-security-group-membership.png)
 
@@ -99,7 +99,7 @@ A dedicated administrative account (it.admin) was created.
 
 The account was added to the Domain Admins group to follow security best practices by avoiding daily use of the built-in Administrator account.
 
-Screenshot:
+### Screenshot
 
 ![Domain Admin Membership](../screenshots/v2.1/05-domain-admin-membership.png)
 
@@ -117,7 +117,7 @@ Get-ADGroupMember "IT_Admins"
 
 Get-ADGroupMember "Domain Admins"
 
-Screenshots:
+### Screenshots
 
 ![Powershell Users](../screenshots/v2.1/06-powershell-users.png)
 
