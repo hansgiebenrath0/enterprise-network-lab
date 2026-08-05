@@ -71,7 +71,7 @@ Each department is isolated using VLANs while controlled communication is provid
 
 ## Network Topology
 
-![Network Topology](diagrams/topology.png)
+![Network Topology](diagrams/topology2.png)
 
 ---
 
