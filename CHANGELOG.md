@@ -6,6 +6,22 @@ The format is inspired by **Keep a Changelog**.
 
 ---
 
+## [2.1.0] - Active Directory Administration
+
+### Added
+
+- Organizational Unit (OU) hierarchy
+- Departmental Organizational Units
+- Security Groups
+- Standard domain user accounts
+- Dedicated administrative account (it.admin)
+- Domain Admins membership configuration
+- PowerShell verification procedures
+- Active Directory administration documentation
+- Verification screenshots
+
+---
+
 ## [2.0.0] - YYYY-MM-DD
 
 ### Added

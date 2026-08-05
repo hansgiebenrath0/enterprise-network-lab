@@ -76,11 +76,15 @@
 
 ---
 
-## Version 2.5
-### Remote Access
+## Version 2.1 ✅
+### Active Directory Administration
 
-- [ ] Site-to-Site VPN
-- [ ] Remote Access VPN
+- [x] Organizational Units (OU)
+- [x] Security Groups
+- [x] Domain Users
+- [x] Administrative Account
+- [x] Group Membership
+- [x] PowerShell Verification
 
 ---
 

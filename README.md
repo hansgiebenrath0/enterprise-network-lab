@@ -39,6 +39,8 @@ Each department is isolated using VLANs while controlled communication is provid
 - Domain Controller
 - DNS Server
 - Enterprise Authentication
+- Active Directory Domain Services (AD DS)
+- Active Directory Administration
 
 ### Project
 
@@ -63,6 +65,7 @@ Each department is isolated using VLANs while controlled communication is provid
 | DHCP | Automatic IP Assignment |
 | ACL | Traffic Filtering |
 | Git & GitHub | Version Control |
+| Windows Server 2022 | Active Directory Services |
 
 ---
 
@@ -149,7 +152,7 @@ Verification screenshots are available in the **screenshots/** directory.
 
 ## Current Version
 
-**v2.0.0**
+**v2.1.0**
 
 Implemented:
 
@@ -172,6 +175,9 @@ Implemented:
 - Active Directory
 - DNS
 - Domain Controller
+- Organizational Units (OU)
+- Security Groups
+- Active Directory User Administration
 
 ### Documentation
 
@@ -185,7 +191,6 @@ Implemented:
 
 Planned features include:
 
-- Active Directory Administration
 - Windows Client Domain Join
 - Group Policy
 - Windows DHCP
