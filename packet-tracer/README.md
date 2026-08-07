@@ -82,6 +82,7 @@ Each implemented feature includes:
 | v1.6 | Centralized Syslog |
 | v2.0 | Windows Server 2022, Active Directory, DNS, Domain Controller |
 | v2.1 | Active Directory Administration |
+| v2.2 | Windows 11 Domain Join |
 
 > Beginning with version 2.0, the project includes Windows Server infrastructure in addition to the Cisco Packet Tracer topology. Some features are implemented outside of Packet Tracer and are documented in the `/docs` directory.
 

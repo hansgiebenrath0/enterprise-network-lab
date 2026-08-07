@@ -41,6 +41,7 @@ Each department is isolated using VLANs while controlled communication is provid
 - Enterprise Authentication
 - Active Directory Domain Services (AD DS)
 - Active Directory Administration
+- Windows Domain Join
 
 ### Project
 
@@ -66,6 +67,7 @@ Each department is isolated using VLANs while controlled communication is provid
 | ACL | Traffic Filtering |
 | Git & GitHub | Version Control |
 | Windows Server 2022 | Active Directory Services |
+| Windows 11 | Domain Client |
 
 ---
 
@@ -152,7 +154,7 @@ Verification screenshots are available in the **screenshots/** directory.
 
 ## Current Version
 
-**v2.1.0**
+**v2.2.0**
 
 Implemented:
 
@@ -178,6 +180,7 @@ Implemented:
 - Organizational Units (OU)
 - Security Groups
 - Active Directory User Administration
+- Windows 11 Domain Join
 
 ### Documentation
 
@@ -191,7 +194,6 @@ Implemented:
 
 Planned features include:
 
-- Windows Client Domain Join
 - Group Policy
 - Windows DHCP
 - File Services

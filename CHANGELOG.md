@@ -6,6 +6,22 @@ The format is inspired by **Keep a Changelog**.
 
 ---
 
+## [2.2.0] - Windows Domain Join
+
+### Added
+
+- Windows 11 client configuration
+- Static network configuration
+- Domain DNS configuration
+- Windows 11 successfully joined to the Active Directory domain
+- Domain authentication verification
+- Active Directory computer object verification
+- PowerShell verification procedures
+- Complete documentation
+- Verification screenshots
+
+---
+
 ## [2.1.0] - Active Directory Administration
 
 ### Added

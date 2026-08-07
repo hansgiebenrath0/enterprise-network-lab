@@ -88,6 +88,18 @@
 
 ---
 
+## Version 2.2 ✅
+### Windows Domain Join
+
+- [x] Windows 11 Client Configuration
+- [x] DNS Configuration
+- [x] Domain Join
+- [x] Domain Authentication
+- [x] Active Directory Computer Object Verification
+- [x] PowerShell Verification
+
+---
+
 # Version 3.0
 ## Container Services
 
